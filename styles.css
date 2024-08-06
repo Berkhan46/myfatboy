@@ -1,0 +1,38 @@
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(tounge.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position:center ;
+  color: rgb(233, 37, 37);
+
+}
+p{
+ text-overflow: ellipsis;
+}
+h1{
+  animation: mySlide;
+  animation-duration: 5s;
+}
+
+
+@keyframes mySlide{
+
+  from{margin-left: 100%;}
+  to{margin-left: 0%;}
+  
+  
+  }
+
+
+img{
+  animation: mySlide;
+  animation-duration: 5s;
+  width: 200px;
+  height: 200px;
+  margin-inline-start: 150px;
+  border-radius: 15px;
+  margin-top: 200px;
+}
